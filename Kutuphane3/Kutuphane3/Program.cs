@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Kutuphane3
@@ -18,38 +19,109 @@ namespace Kutuphane3
             books.Add(new Kitap() { bookName = "Death Note", bookAuthor = "Japon", bookType = "Manga" });
             books.Add(new Kitap() { bookName = "Bleach", bookAuthor = "Japon2", bookType = "Manga" });
             books.TrimExcess();
-            //Console.WriteLine(books.Count);
-            //Console.WriteLine(books.Capacity);
 
-            //for (int i = 0; i < books.Count; i++)
-            //{
-            //    Console.WriteLine("İsim: "+books[i].bookName +"\nYazar: "+ books[i].bookAuthor +"\nTür: "+ books[i].bookType);
-            //    Console.WriteLine("------");
-            //}
+            List<Kullanicilar> users = new List<Kullanicilar>();
+            users.Add(new Kullanicilar() { userName = "admin", password = "1234" });
+            users.Add(new Kullanicilar() { userName = "samet", password = "0000" });
 
-            List<string> Types = new List<string>();
+            Console.WriteLine("Kütüphaneye Hoş geldiniz");
 
-           
-            for (int i = 0; i < books.Count; i++)
+            Console.WriteLine("Kullanıcı adınızı ve şifrenizi giriniz");
+            Console.Write("Kullanıcı adı = ");
+            string kullanici = Console.ReadLine();
+
+
+
+
+            if (kullanici == users[0].userName)
             {
-                bool isIn = false;
-                for (int j = 0; j < Types.Count; j++) 
+                Console.Write("Şifre = ");
+                string sifre = Console.ReadLine();
+                if (sifre == users[0].password)
                 {
-                    if (books[i].bookType == Types[j])
+                    Console.WriteLine("Admin girişi yapıldı. Lütfen yapmak istediğiniz işlemi seçiniz");
+                    Console.WriteLine("1) Kitap Ekleme");
+                    Console.WriteLine("2) Kütüphaneyi Kapatma");
+                }
+                else
+                {
+                    Console.WriteLine("Sifre hatalı");
+                }
+
+            }
+            else if (kullanici == users[1].userName)
+            {
+                Console.Write("Sifre = ");
+                string sifre = Console.ReadLine();
+                if (sifre == users[1].password)
+                {
+                    Console.WriteLine("Girişi yapıldı. Lütfen yapmak istediğiniz işlemi seçiniz");
+                    Console.WriteLine("1) Kitap Listesi");
+                    Console.WriteLine("2) Türe Göre Kitap listesi");
+                    string secim = Console.ReadLine();
+                    if (secim == "1")
                     {
-                        isIn = true;
-                        break;
+                        for (int i = 0; i < books.Count; i++)
+                        {
+                            Console.WriteLine("İsim: " + books[i].bookName + "\nYazar: " + books[i].bookAuthor + "\nTür: " + books[i].bookType);
+                            Console.WriteLine("------");
+                        }
+                    }
+
+                    else if (secim == "2")
+                    {
+                        List<string> Types = new List<string>();
+
+
+                        for (int i = 0; i < books.Count; i++)
+                        {
+                            bool isIn = false;
+                            for (int j = 0; j < Types.Count; j++)
+                            {
+                                if (books[i].bookType == Types[j])
+                                {
+                                    isIn = true;
+                                    break;
+                                }
+                            }
+                            if (isIn == false)
+                            {
+                                Types.Add(books[i].bookType);
+                            }
+                        }
+
+                        for (int i = 0; i < Types.Count; i++)
+                        {
+                            Console.WriteLine((i + 1) + ") " + Types[i]);
+
+                        }
+                        Types.TrimExcess();
+                        Console.WriteLine("----------");
+                        Console.WriteLine("Seçmek istediğiniz tür");
+
+                        int secim2 = Convert.ToInt32(Console.ReadLine());
+
+                        for (int i = 0; i < books.Count; i++)
+                        {
+                            if (secim2 == (i + 1))
+                            {
+                                Console.WriteLine(Types[i] + " türüne ait kitaplar\n");
+                                for (int j = 0; j < books.Count; j++)
+                                {
+                                    if (books[j].bookType == Types[i])
+                                    {
+                                        Console.WriteLine(books[j].bookName);
+                                    }
+                                }
+                            }
+
+                        }
                     }
                 }
-                if (isIn == false)
+                else
                 {
-                    Types.Add(books[i].bookType);
-                }  
-            }
-
-            for (int i = 0; i < Types.Count; i++)
-            {
-                Console.WriteLine((i+1)+ ") "+Types[i]);
+                    Console.WriteLine("Sifre hatalı");
+                }
             }
 
         }

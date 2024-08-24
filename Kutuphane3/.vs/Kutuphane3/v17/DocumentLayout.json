@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Skapar\\source\\repos\\Kutuphane3\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|c:\\users\\skapar\\source\\repos\\kutuphane3\\kutuphane3\\kullanicilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|solutionrelative:kutuphane3\\kullanicilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|c:\\users\\skapar\\source\\repos\\kutuphane3\\kutuphane3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\kutuphane3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|solutionrelative:kutuphane3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|c:\\users\\skapar\\source\\repos\\kutuphane3\\kutuphane3\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\kutuphane3\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|solutionrelative:kutuphane3\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|c:\\users\\user\\documents\\github\\listdictionarypractice\\kutuphane3\\kutuphane3\\kullanicilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E6EAA5-1AC3-4502-9C24-3A18BF6C20CE}|Kutuphane3\\Kutuphane3.csproj|solutionrelative:kutuphane3\\kullanicilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Kullanicilar.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\source\\repos\\Kutuphane3\\Kutuphane3\\Kullanicilar.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\Kutuphane3\\Kullanicilar.cs",
               "RelativeDocumentMoniker": "Kutuphane3\\Kullanicilar.cs",
-              "ToolTip": "C:\\Users\\Skapar\\source\\repos\\Kutuphane3\\Kutuphane3\\Kullanicilar.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\Kutuphane3\\Kullanicilar.cs",
               "RelativeToolTip": "Kutuphane3\\Kullanicilar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,11 +39,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Kitap.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\source\\repos\\Kutuphane3\\Kutuphane3\\Kitap.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\Kutuphane3\\Kitap.cs",
               "RelativeDocumentMoniker": "Kutuphane3\\Kitap.cs",
-              "ToolTip": "C:\\Users\\Skapar\\source\\repos\\Kutuphane3\\Kutuphane3\\Kitap.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\Kutuphane3\\Kitap.cs",
               "RelativeToolTip": "Kutuphane3\\Kitap.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\source\\repos\\Kutuphane3\\Kutuphane3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\Kutuphane3\\Program.cs",
               "RelativeDocumentMoniker": "Kutuphane3\\Program.cs",
-              "ToolTip": "C:\\Users\\Skapar\\source\\repos\\Kutuphane3\\Kutuphane3\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\ListDictionaryPractice\\Kutuphane3\\Kutuphane3\\Program.cs",
               "RelativeToolTip": "Kutuphane3\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAfAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAgwFMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T08:00:10.772Z",
               "EditorCaption": ""
